@@ -1,0 +1,107 @@
+*{
+    box-sizing:border-box;
+  }
+  #calculator{
+    width:300px;
+    margin:20px auto;
+    background:#444;
+    background:linear-gradient(to bottom right, #555, #444);
+    padding:20px;
+    border-radius:5px;
+    box-shadow:6px 5px 15px #666, 
+      2px 4px 2px #333, 
+      inset -4px -4px 5px rgba(255,255,255,.15),
+      inset 2px 3px 5px rgba(255,255,255,.25);
+  }
+  #logo{
+    width:100%;
+    height:20px;
+    text-align:center;
+    margin-top:10px;
+    margin-bottom:10px;
+    color:white;
+    font-family:Arial, sans-serif;
+    font-size:18px;
+  }
+  
+  #screen{
+    background-color:rgb(196,210,196);
+    width:100%;
+    padding:10px 20px;
+    margin-bottom:20px;
+    border-radius:5px;
+    box-shadow: inset 1px 4px 10px #666;
+  }
+  .screen{
+    width:100%;
+    background-color:transparent;
+    border-width:0px;
+    font-family:Monospace;
+    transition: all .5s
+  }
+  #display{
+    color:black;
+    font-size:24px;
+  }
+  #preview{
+    color:#999;
+  }
+  button{
+    padding:10px;
+    background:#ccc;
+    font-family:Monospace;
+    border-width:0px;
+    border-radius:4px;
+    font-size:24px;
+    width:52px;
+    height:52px;
+    margin:5px;
+    box-shadow:2px 5px 5px #333,
+      2px 2px 1px #000,
+      inset 4px 4px 1px rgba(255,255,255,.5),
+      inset -4px -4px 1px rgba(100,100,100,.25);
+    transition: all .2s;
+  }
+  button:hover{
+    background-color:#eee;
+  }
+  button.red:hover{
+    background-color:#f55;
+  }
+  .doublewidth{
+    width:118px;
+  }
+  .doubleheight{
+    height:114px;
+    float:right;
+  }
+  .red{
+    background-color:#f33;;
+    color:white;
+  }
+  
+  .solarstrip{
+    width:100%;
+    margin-bottom:5px;
+  }
+  .solarstrip:after{
+    clear:both;
+    content: "";
+    display: table;
+  }
+  .solarstrip .text{
+    float:left;
+    margin-top:-5px;
+    margin-left:10px;
+    color:white;
+    text-decoration:none;
+  }
+  .solar{
+    cursor:pointer;
+    width:20px;
+    height:30px;
+    margin-top:-10px;
+    background:#333;
+    float:right;
+    margin-left:2px;
+  }
